@@ -11,5 +11,5 @@ print txt.read()
 print "Type the filename again:"
 file1 = raw_input(">")
 txt = open(file1) #open file
-print txt.read() #read the file
+print txt.readline() #read only one line from the file
 
